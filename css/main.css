@@ -15,27 +15,28 @@ html {
   transition: all 1s linear;
   transform: rotate(-15deg);
   position: absolute;
-  left: 55px;
-  top: 50px;
+  left: 190px;
+  top: 120px;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
   z-index: 300;
-  left: 150px;
-  top: 100px;
+  left: 290px;
+  top: 150px;
 }
 
 .polaroid:nth-child(3) {
-  transform: rotate(35deg);
+  transform: rotate(25deg);
   z-index: 200;
-  left: 260px;
-  top: 65px;
+  left: 390px;
+  top: 95px;
 }
 
 .polaroid:hover {
   transform: rotate(0);
   z-index: 1000;
+  text-shadow: 2px 2px #000;
 }
 
 .polaroid > img {
