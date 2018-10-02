@@ -12,6 +12,30 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  transition: all 1s linear;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 55px;
+  top: 50px;
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(5deg);
+  z-index: 300;
+  left: 150px;
+  top: 100px;
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(35deg);
+  z-index: 200;
+  left: 260px;
+  top: 65px;
+}
+
+.polaroid:hover {
+  transform: rotate(0);
+  z-index: 1000;
 }
 
 .polaroid > img {
